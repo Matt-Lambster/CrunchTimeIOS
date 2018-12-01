@@ -16,59 +16,61 @@
             <rect key="frame" x="0.0" y="0.0" width="224" height="219"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bc7-7D-iLa">
-                    <rect key="frame" x="0.0" y="0.0" width="224" height="126"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bc7-7D-iLa">
+                    <rect key="frame" x="0.0" y="0.0" width="224" height="119"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="119" id="GbA-tf-rL8"/>
+                    </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="va4-KB-Hli">
-                    <rect key="frame" x="23" y="141" width="220" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doe Memorial Library" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="va4-KB-Hli">
+                    <rect key="frame" x="16" y="127" width="192" height="24"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AC4-Er-JbT">
-                    <rect key="frame" x="31" y="170" width="18" height="20"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AC4-Er-JbT">
+                    <rect key="frame" x="16" y="159" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="AIl-z1-dfS"/>
+                        <constraint firstAttribute="width" constant="22" id="DxF-VV-6MZ"/>
+                    </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FuX-hj-Oxp">
-                    <rect key="frame" x="57" y="170" width="18" height="20"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9r7-bA-3m3">
-                    <rect key="frame" x="115" y="170" width="128" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Capacity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iwF-KN-U6K">
+                    <rect key="frame" x="16" y="187" width="192" height="19.5"/>
+                    <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iwF-KN-U6K">
-                    <rect key="frame" x="23" y="198" width="42" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8o-Oe-CPw">
-                    <rect key="frame" x="162" y="191" width="46" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Button"/>
-                    <connections>
-                        <action selector="seeMore:" destination="iN0-l3-epB" eventType="touchUpInside" id="vFt-G1-RQH"/>
-                    </connections>
-                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FuX-hj-Oxp">
+                    <rect key="frame" x="46" y="161" width="20" height="20"/>
+                </imageView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="backgroundColor" red="0.22745098039215686" green="0.43137254901960786" blue="0.6470588235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="va4-KB-Hli" firstAttribute="top" secondItem="Bc7-7D-iLa" secondAttribute="bottom" constant="8" symbolic="YES" id="74W-zP-UxK"/>
+                <constraint firstItem="AC4-Er-JbT" firstAttribute="leading" secondItem="iwF-KN-U6K" secondAttribute="leading" id="8vO-TG-Vvf"/>
+                <constraint firstItem="Bc7-7D-iLa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ChF-6a-5jq"/>
+                <constraint firstItem="AC4-Er-JbT" firstAttribute="bottom" secondItem="FuX-hj-Oxp" secondAttribute="bottom" id="Kay-fB-sIL"/>
+                <constraint firstItem="AC4-Er-JbT" firstAttribute="top" secondItem="va4-KB-Hli" secondAttribute="bottom" constant="8" symbolic="YES" id="Pe8-ka-NtT"/>
+                <constraint firstItem="FuX-hj-Oxp" firstAttribute="leading" secondItem="AC4-Er-JbT" secondAttribute="trailing" constant="8" id="QdH-Xj-qkM"/>
+                <constraint firstItem="AC4-Er-JbT" firstAttribute="leading" secondItem="va4-KB-Hli" secondAttribute="leading" id="RlP-ZD-Umg"/>
+                <constraint firstAttribute="trailing" secondItem="Bc7-7D-iLa" secondAttribute="trailing" id="UY1-Jb-Dvi"/>
+                <constraint firstItem="iwF-KN-U6K" firstAttribute="top" secondItem="AC4-Er-JbT" secondAttribute="bottom" constant="6" id="X7D-O1-VtU"/>
+                <constraint firstItem="Bc7-7D-iLa" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="cVt-od-1d6"/>
+                <constraint firstItem="Bc7-7D-iLa" firstAttribute="centerX" secondItem="va4-KB-Hli" secondAttribute="centerX" id="fSN-HB-ZTR"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="FuX-hj-Oxp" secondAttribute="trailing" constant="158" id="g71-Qg-pB4"/>
+                <constraint firstItem="Bc7-7D-iLa" firstAttribute="centerX" secondItem="iwF-KN-U6K" secondAttribute="centerX" id="sPW-lz-GcJ"/>
+                <constraint firstItem="AC4-Er-JbT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="u0Q-4z-AuI"/>
+                <constraint firstItem="AC4-Er-JbT" firstAttribute="top" secondItem="FuX-hj-Oxp" secondAttribute="top" constant="-2" id="ytr-z1-JFD"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
-                <outlet property="button" destination="G8o-Oe-CPw" id="e4e-tI-nyQ"/>
                 <outlet property="capacity" destination="iwF-KN-U6K" id="svi-5V-Sgd"/>
                 <outlet property="foodPic" destination="FuX-hj-Oxp" id="uOV-tE-jZb"/>
                 <outlet property="libName" destination="va4-KB-Hli" id="SSH-EW-s6H"/>
                 <outlet property="libPic" destination="Bc7-7D-iLa" id="yY4-b5-a3f"/>
-                <outlet property="openSeats" destination="9r7-bA-3m3" id="2Ei-Hr-1DU"/>
-                <outlet property="soundPic" destination="FuX-hj-Oxp" id="ZKP-Wk-6zw"/>
+                <outlet property="soundPic" destination="AC4-Er-JbT" id="Ued-8d-WfC"/>
             </connections>
             <point key="canvasLocation" x="326.39999999999998" y="-9.4452773613193415"/>
         </view>

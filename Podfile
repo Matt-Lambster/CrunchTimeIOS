@@ -11,6 +11,7 @@ pod 'FirebaseStorage'
 pod 'FirebaseDatabase'
 pod 'GoogleMaps'
 pod 'GooglePlaces'
+pod 'Charts'
   target 'CrunchTimeTests' do
     inherit! :search_paths
     # Pods for testing

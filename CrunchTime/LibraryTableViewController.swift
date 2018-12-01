@@ -57,7 +57,7 @@ var selectedLibrary = ""
                 if let libraries = snapshot.value as? [String:AnyObject] {
                     for (key, value) in libraries {
                         if key == self.libraryList[indexPath.row] {
-                            cell.capacity.text = "Capacity: " + String(value["Capacity"] as! Int)
+                            cell.capacity.text = "Capacity: " + String(value["Capacity"] as! Int) + "%"
                             cell.library.text = key
                             cell.libraryImage.image = UIImage(named: value["Image"] as! String)
                         }

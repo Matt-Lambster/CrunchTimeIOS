@@ -8,10 +8,6 @@
 
 import UIKit
 
-protocol MapMarkerDelegate: class {
-    func seeMore()
-}
-
 class CustomInfoWindow: UIView {
 
     @IBOutlet weak var libPic: UIImageView!
@@ -22,13 +18,8 @@ class CustomInfoWindow: UIView {
     @IBOutlet weak var capacity: UILabel!
     
     @IBOutlet weak var button: UIButton!
-    weak var delegate: MapMarkerDelegate?
     var spotData: NSDictionary?
     
-    @IBAction func seeMore(_ sender: Any) {
-        delegate?.seeMore()
-
-    }
     
     class func instanceFromNib() -> UIView {
         return UINib(nibName: "InfoWindow", bundle: nil).instantiate(withOwner: self, options: nil).first as! UIView
